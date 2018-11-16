@@ -7,7 +7,15 @@
     </head>
     <body>
         <?php
+            $varNumb1 = 1;
+            while ($varNumb1 <=10)
+            {
+                echo $varNumb1;
+        ?><br />
+        <?php
 
+                $varNumb1 += $varNumb1/2;
+            }
         ?>
     </body>
 </html>

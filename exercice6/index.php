@@ -7,7 +7,15 @@
     </head>
     <body>
         <?php
-
+        $varNumbinit = 20;
+        while($varNumbinit >= 0)
+        {    
+            echo 'C \'est presque bon';
+            ?>
+        <br />
+        <?php
+        $varNumbinit --;
+        }
         ?>
     </body>
 </html>

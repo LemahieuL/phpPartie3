@@ -7,7 +7,16 @@
     </head>
     <body>
         <?php
-
+        $varNumbinit = 1;
+        while($varNumbinit <= 15)
+        {    
+            echo 'On y arrive presque';
+            ?>
+        <br />
+        <?php
+        $varNumbinit ++;
+        }
         ?>
+        
     </body>
 </html>

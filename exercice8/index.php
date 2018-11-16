@@ -7,7 +7,15 @@
     </head>
     <body>
         <?php
-
+        $varNumbinit = 200;
+        while($varNumbinit >= 0)
+        {    
+            echo 'Enfin !!!!';
+            ?>
+        <br />
+        <?php
+        $varNumbinit -= 12;
+        }
         ?>
     </body>
 </html>

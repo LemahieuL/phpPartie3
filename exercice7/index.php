@@ -7,7 +7,15 @@
     </head>
     <body>
         <?php
-
+        $varNumbinit = 1;
+        while($varNumbinit <= 100)
+        {    
+            echo 'On tient le bon bout';
+            ?>
+        <br />
+        <?php
+        $varNumbinit += 15;
+        }
         ?>
     </body>
 </html>
